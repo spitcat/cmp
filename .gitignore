@@ -1,0 +1,9 @@
+
+.gitignore
+.idea/
+composer.lock
+Would skip repository vendor/bonami-cz/Elastica
+vendor/autoload.php
+vendor/bin
+vendor/composer
+vendor/*

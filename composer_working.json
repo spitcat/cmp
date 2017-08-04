@@ -1,0 +1,24 @@
+{
+    "name": "awsick/cmp",
+    "authors": [
+        {
+            "name": "martin strnad",
+            "email": "martin.strnad@refresh.cz"
+        }
+    ],
+    "repositories":
+[
+
+
+    {
+        "type": "vcs",
+        "url": "git@github.com:bonami-cz/Elastica.git"
+    }
+
+
+],
+    "require": {
+        "bonami-cz/Elastica": "dev-2.3.1-bonami",
+        "ruflin/Elastica": "^5.3"
+    }
+}

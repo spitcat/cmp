@@ -1,0 +1,33 @@
+{
+    "name": "awsick/cmp",
+    "authors": [
+        {
+            "name": "martin strnad",
+            "email": "martin.strnad@refresh.cz"
+        }
+    ],
+    "repositories":
+[
+    {
+        "type": "package",
+        "package": {
+            "name": "bonami-cz/elastica",
+            "version": "dev-2.3.1-bonami",
+            "source": {
+                "url": "git@github.com:bonami-cz/Elastica.git",
+                "type": "git",
+                "reference":"2.3.1-bonami"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bonami\\Elastica\\": "lib/Bonami/Elastica"
+                }
+            }
+
+        }
+    }
+],
+    "require": {
+        "bonami-cz/Elastica": "dev-2.3.1-bonami"
+    }
+}
